@@ -1,0 +1,151 @@
+.clearfix {
+  clear: both;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #c30e2e;
+}
+
+header .logo {
+  display: block;
+  height: 70px;
+  width: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px;
+}
+
+.menu li:not(.no-hover):hover {
+  background: #aa0b28;
+}
+
+.menu .item-avatar {
+  display: flex;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.menu .item-avatar img {
+  height: 32px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.foto-principal {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.jugador {
+  background: black;
+  width: 250px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+}
+
+.jugador a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.jugador img {
+  height: 112px;
+  border-radius: 9999px;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
+
+.contenido-jugador table {
+  border-spacing: 5px;
+}
+
+.contenido-jugador th {
+  text-align: left;
+}
+
+.contenido-jugador td {
+  text-align: right;
+}
+
+.avatar-actual {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.avatar-actual img {
+  width: 100%;
+}
+
+.avatares {
+  float: left;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.avatares img {
+  width: 100px;
+  margin: 10px 10px 10px 0;
+}
+
+.avatares label {
+  display: block;
+  float: left;
+}
+
+.avatares input[type="radio"] {
+  display: none;
+}
+
+.avatares input[type="radio"]:checked + img {
+  outline: 3px solid #c30e2e;
+}
+
+.avatares input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+}
+
+#login input {
+  display: block;
+  margin: 10px;
+}
